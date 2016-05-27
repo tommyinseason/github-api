@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>GitHub Search</title>
+  </head>
+  <body>
+    <div class="container jumbotron">
+      <h1>Search GitHub Repos Here!</h1>
+    </div>
+    <form class="formlayout">
+      <label for="username">Enter a github username:</label>
+      <input id="username" name="username" type="text">
+      <button class="btn-success" type="submit" id="userSearch">Get this users repos!</button>
+    </form>
+      <div class="showRepos" id="showRepos"></div>
+    </div>
+  </body>
+</html>
